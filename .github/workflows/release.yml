@@ -28,8 +28,8 @@ jobs:
 
       # # Uncomment the following lines to publish to npm on CI
       #
-      # - run: pnpm install
-      # - run: pnpm publish --no-git-checks -r --access public
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-      #     NPM_CONFIG_PROVENANCE: true
+      - run: pnpm install
+      - run: pnpm publish --no-git-checks -r --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_CONFIG_PROVENANCE: true
