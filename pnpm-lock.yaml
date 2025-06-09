@@ -93,7 +93,7 @@ importers:
         version: 5.8.3
       ultracite:
         specifier: ^4.2.4
-        version: 4.2.4
+        version: 4.2.8
       unbuild:
         specifier: catalog:cli
         version: 3.5.0(typescript@5.8.3)
@@ -777,13 +777,13 @@ packages:
   colord@2.9.3:
     resolution: {integrity: sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==}
 
-  commander@12.1.0:
-    resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
-    engines: {node: '>=18'}
-
   commander@13.1.0:
     resolution: {integrity: sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==}
     engines: {node: '>=18'}
+
+  commander@14.0.0:
+    resolution: {integrity: sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==}
+    engines: {node: '>=20'}
 
   commander@7.2.0:
     resolution: {integrity: sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==}
@@ -1491,8 +1491,8 @@ packages:
   ufo@1.5.4:
     resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
 
-  ultracite@4.2.4:
-    resolution: {integrity: sha512-1dJfklnn8jGdzNAY770ogUN7rKqjFD/Rz6MYINYXMSuOdX5AXk8lI7ay8zCP3IYg4gX9gCkvuPE3XPaU/nD6bw==}
+  ultracite@4.2.8:
+    resolution: {integrity: sha512-zdt8FA190RGF0QE025WO4uGJGrglb1hZJmSkflRDf0lWyfGnEA69aQKy5005OvoTFh7P6ebGWVI+YbQLOUMxlQ==}
     hasBin: true
 
   unbuild@3.5.0:
@@ -2089,9 +2089,9 @@ snapshots:
 
   colord@2.9.3: {}
 
-  commander@12.1.0: {}
-
   commander@13.1.0: {}
+
+  commander@14.0.0: {}
 
   commander@7.2.0: {}
 
@@ -2808,9 +2808,9 @@ snapshots:
 
   ufo@1.5.4: {}
 
-  ultracite@4.2.4:
+  ultracite@4.2.8:
     dependencies:
-      commander: 12.1.0
+      commander: 14.0.0
 
   unbuild@3.5.0(typescript@5.8.3):
     dependencies:
