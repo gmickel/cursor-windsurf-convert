@@ -93,7 +93,7 @@ importers:
         version: 5.8.3
       ultracite:
         specifier: ^4.2.4
-        version: 4.2.8
+        version: 4.2.10
       unbuild:
         specifier: catalog:cli
         version: 3.5.0(typescript@5.8.3)
@@ -1491,8 +1491,8 @@ packages:
   ufo@1.5.4:
     resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
 
-  ultracite@4.2.8:
-    resolution: {integrity: sha512-zdt8FA190RGF0QE025WO4uGJGrglb1hZJmSkflRDf0lWyfGnEA69aQKy5005OvoTFh7P6ebGWVI+YbQLOUMxlQ==}
+  ultracite@4.2.10:
+    resolution: {integrity: sha512-4CWIocizBZrUydXT8Ty+jD3Ma/Mz7xHlggVeAVYCb1IzsG/4WjCxpNNfUSryLE4UNaHoAGDFD/NljR2G4u3ZTw==}
     hasBin: true
 
   unbuild@3.5.0:
@@ -2808,7 +2808,7 @@ snapshots:
 
   ufo@1.5.4: {}
 
-  ultracite@4.2.8:
+  ultracite@4.2.10:
     dependencies:
       commander: 14.0.0
 
